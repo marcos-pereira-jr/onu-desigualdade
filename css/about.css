@@ -41,8 +41,8 @@ main{
 		"article article article article hr aside";
 }
 .post{
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 10px;
 }
 .post > h1{
@@ -63,11 +63,22 @@ aside > ul > li {
     display: flex;
 }
 .text-image > img{
-    width: 20vw;
-
+    width: 250px;
     border: 2px solid #69bde7;
     margin: 15px 10px 10px 0px;
+    max-height: 350px;
 }
 cite{
     background-color: #aed4e721;
+}
+
+@media (max-width: 920px) {
+    .text-image {
+        display: inline;
+    }
+    .post{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
 }
