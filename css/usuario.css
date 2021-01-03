@@ -57,7 +57,7 @@ a {
   color: teal;
 }
 a:houver {
-  color: chartreuse;
+  color: rgb(110, 85, 223);
 }
 .btn {
   display: block;
@@ -126,4 +126,8 @@ a:houver {
   .about {
     display: none;
   }
+}
+
+.cadastrar{
+  background-image: linear-gradient(to right, #c4c7d6, #636ea5, #c4c7d6) !important; 
 }

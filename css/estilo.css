@@ -62,9 +62,6 @@ nav li:hover a {
   height: 100vh;
 }
 
-.content h1 {
-}
-
 #resultado {
   margin-top: 20px;
   border-top: 2px solid rgb(32, 32, 32);

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/registrar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <main>
+        <div class="form-body"></div>
+            <form   action="/action_page.php">
+                <div class="container-form">
+                  <h1> <i class="fa fa-graduation-cap" aria-hidden="true"></i> Registrar-se</h1>
+                  <p>Obrigado por usar nossa prataforma</p>
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Email" name="email" required>
+
+                  <label for="data-de-nascimento"><b>Birthday</b></label>
+                  <input type="date" name="data-de-nascimento">
+              
+                  <label for="senha"><b>Senha</b></label>
+                  <input type="password" placeholder="Senha" name="senha" required>
+              
+                  <label for="senha-repetir"><b>Repita sua senha</b></label>
+                  <input type="password" placeholder="Repita a senha" name="senha-repetir" required>
+                  <div class="conteiner-sexo">
+                    <p><b>Sexo:</b></p>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="feminino" name="sexo" value="female">
+                    <label for="femino">Feminino</label><br>
+                    <input type="radio" id="outros" name="sexo" value="outros">
+                    <label for="other">Outros</label>
+                  </div>
+                  
+                  <hr>
+                  <button type="submit" class="registrar-btn">Registar-se</button>
+                </div>
+                
+                <div class="container btn-entrar">
+                  <p>Já tem uma conta? <a href="../index.html">Logar</a>.</p>
+                </div>
+              </form>
+        </div>
+    </main>
+    <footer class="grid footer">
+        <div class="footer-title">
+            <div class="tilte-footer">
+                <p class="title-footer-text"><b>Nosso Objetivo: </b></p>
+                <div class="flex-container">
+                    <p class="title-footer-sub-text" >Queremos diminuir a desigualdade social através de disseminação de cursos gratis</p>
+                    <div class="btn-container">
+                        <input type="submit" class="btn-junte-se-a-nois" value="Junte-se a nós" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-parceiro">
+            <div class="parceiros-conhecimento">
+                <p>Parceiro com conhecimento:</p>
+                <ul class="lista-parceiro">
+                    <li>Google</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="parceiros-produtores">
+                <p>Produtores:</p>
+                <ul class="lista-parceiro">
+                    <li>Piedro Lasquin</li>
+                    <li>Feanor Starfire</li>
+                </ul>
+            </div>
+            <div class="parceiros-investidores">
+                <p>Investidores</p>
+                <ul class="lista-parceiro">
+                    <li>Piedro Lasquin</li>
+                    <li>Feanor Starfire</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-radapé">
+            <div class="redes-sociais">
+                <p>Redes Sociais</p>
+                <ul>
+                    <li><i class="fa fa-facebook"></i> Facebook</li>
+                    <li><i class="fa fa-instagram"></i> Instagran</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
